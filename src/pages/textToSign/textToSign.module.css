@@ -1,0 +1,66 @@
+.main {
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.body {
+    width: 80vw;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputBox {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.finalBtn {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    background-color: #f0d83d;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.finalBtn:hover {
+    background-color: #e0c32c;
+}
+
+.output {
+    width: 100%;
+    max-width: 600px;
+    max-height: 40vh;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.signImage {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: 2px solid black;
+    overflow-y: auto;
+}

@@ -1,0 +1,128 @@
+/* Login Page Styles */
+.body {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+  img{
+    height: 99vh;
+  }
+}
+
+
+/* Fade-in animation for smoother page load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.loginContainer {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 380px;
+  animation: slideUp 0.6s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+
+/* Slide-up animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input fields */
+.inputGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.inputLabel {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+.inputField:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Login Button */
+.loginBtn {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Button Hover Effect */
+.loginBtn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Button Click Effect */
+.loginBtn:active {
+  transform: scale(0.98);
+}
+
+
+
+/* Responsive */
+@media (max-width: 450px) {
+  .loginContainer {
+    width: 90%;
+  }
+}
+

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+.nav{
+    width: 100vw;
+    height: 9vh;
+    color: black;
+    background-color: #f0d83d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 30px;
+    svg{
+        fill: black;
+        height: 5vh;
+        cursor: pointer;
+    }
+}
+.hero{
+    width: 100vw;
+    height: 91vh;
+    position: relative;
+}
+.aboutOption{
+    width: 100vw;
+    height: 91vh;
+    position: absolute;
+    top: 9%;
+    left: 0;
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.aboutOption p{
+    font-size: 1.5rem;
+    text-decoration:underline;
+    
+    cursor: pointer;
+    
+}
