@@ -52,8 +52,13 @@ html body{
 }
 .aboutOption p{
     font-size: 1.5rem;
-    text-decoration:underline;
+    text-decoration:none;
+    color: white;
     
     cursor: pointer;
+    Link{
+        text-decoration: none;
+        color: white;
+    }
     
 }
